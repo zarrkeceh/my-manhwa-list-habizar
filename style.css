@@ -1,0 +1,117 @@
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+h1 {
+    color: rgb(1, 1, 11);
+}
+.intro {
+    text-align: center;
+}
+.intro-about {
+    text-align: center;
+}
+.garis {
+     width: 160px;
+    height: 3px;
+    border: none;
+    background-color: blueviolet;
+    margin: 10px auto 20px;
+}
+
+nav a {
+    color: azure;
+    text-decoration: none;
+    padding: 5px;
+}
+nav a.active {
+    color: rgb(1, 1, 11);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(1, 1, 11);
+}
+
+.countainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+.manhwa-info .rating {
+    color: #E9D5FF;
+    font-weight: bold;
+}
+
+.manhwa-card {
+    width: 240px;
+    flex-shrink: 0;
+    background-color: blueviolet;
+    color: rgb(15, 2, 26);
+    border: 1px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.manhwa-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+.manhwa-info {
+    padding: 15px;
+}
+.manhwa-info h2 {
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+.manhwa-info p {
+    color: #04010a;
+    margin: 0;
+}
+.manhwa-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.manhwa-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+header {
+    background-color: blueviolet;
+    color: azure;
+    padding: 25px 35px;
+    width: 100%;
+    box-sizing: border-box;
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+header nav {
+    text-align: center;
+    margin-top: 15px;
+}
