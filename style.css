@@ -115,3 +115,12 @@ header nav {
     text-align: center;
     margin-top: 15px;
 }
+ol {
+    text-align: center;
+    list-style: inside;
+    list-style-type: decimal;
+}
+ul {
+    text-align: center;
+    list-style: inside;
+}
